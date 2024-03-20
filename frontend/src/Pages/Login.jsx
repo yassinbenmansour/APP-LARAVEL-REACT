@@ -1,9 +1,10 @@
 import React from 'react'
-
+import StudentLogin from '../Components/Student/StudentLogin'
 export default function Login() {
+  
   return (
-    <div>
-        Login
+    <div className='container '>  
+        <StudentLogin />
     </div>
   )
 }
